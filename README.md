@@ -92,7 +92,7 @@ A brief technical documentation which shows *Alpha Skin*'s concept, technology s
 
 --- 
 
-### Documentation
+### Working Prototype
 
 Alpha Skin includes a functional prototype that showcases our cloud and Edge AI integration, highlighting how healthcare data and motion tracking can be used to provide real-time corrective feedback. This prototype consists of:
 
