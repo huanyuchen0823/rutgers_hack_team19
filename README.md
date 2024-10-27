@@ -24,7 +24,7 @@ Alpha Skin uses a real-time feedback loop between wearable motion sensors and a 
 
 ### Technology Stack
 
-- **Language Models**: OpenAI's GPT-4 API for real-time motion analysis and feedback.
+- **Language Models**: LLM API for real-time motion analysis and feedback.
 - **Wearable Technology**: Piezoelectric textile sensors for detecting spinal movement.
 - **Cloud Platform**: AWS or any suitable cloud provider for model hosting, data processing, and federated learning.
 - **Edge AI**: Local processing on user devices for low-latency feedback.
@@ -59,7 +59,7 @@ The architecture of Alpha Skin is built on a **cloud-edge hybrid model** to leve
 #### Prerequisites
 - **Python 3.8+** installed on the local machine.
 - **Docker** installed for containerized deployment of cloud components.
-- **OpenAI API Key** for accessing GPT-4.
+- **OpenAI API Key** for accessing LLM.
 - **AWS or Cloud Provider Account** for hosting the LLM model and handling data flow.
 
 #### Steps
