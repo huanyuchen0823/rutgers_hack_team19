@@ -1,4 +1,5 @@
-# Alpha Skin (rutgers_hack_team19)
+
+# Alpha Skin
 
 Alpha Skin is an innovative solution designed to support spinal health by providing real-time motion analysis and corrective feedback for individuals with scoliosis and kyphotic deformities. Leveraging wearable piezoelectric textiles, a cloud-based Large Language Model (LLM), and Edge AI, Alpha Skin delivers personalized guidance to improve posture and movement patterns. The system combines cloud-based learning with real-time local processing to deliver adaptive and individualized support.
 
@@ -12,7 +13,6 @@ Alpha Skin is an innovative solution designed to support spinal health by provid
 - [Usage](#usage)
 - [Project Repository](#project-repository)
 - [Demo Video](#demo-video)
-- [License](#license)
 
 ---
 
@@ -24,7 +24,7 @@ Alpha Skin uses a real-time feedback loop between wearable motion sensors and a 
 
 ### Technology Stack
 
-- **Language Models**: LLM API for real-time motion analysis and feedback.
+- **Language Models**: OpenAI's GPT-4 API for real-time motion analysis and feedback.
 - **Wearable Technology**: Piezoelectric textile sensors for detecting spinal movement.
 - **Cloud Platform**: AWS or any suitable cloud provider for model hosting, data processing, and federated learning.
 - **Edge AI**: Local processing on user devices for low-latency feedback.
@@ -59,7 +59,7 @@ The architecture of Alpha Skin is built on a **cloud-edge hybrid model** to leve
 #### Prerequisites
 - **Python 3.8+** installed on the local machine.
 - **Docker** installed for containerized deployment of cloud components.
-- **OpenAI API Key** for accessing LLM.
+- **OpenAI API Key** for accessing GPT-4.
 - **AWS or Cloud Provider Account** for hosting the LLM model and handling data flow.
 
 #### Steps
@@ -68,3 +68,46 @@ The architecture of Alpha Skin is built on a **cloud-edge hybrid model** to leve
    ```bash
    git clone https://github.com/username/alpha-skin.git
    cd alpha-skin
+   ```
+
+2. **Set Up Local Environment**:
+   - Install required dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Configure the OpenAI API key:
+     ```python
+     # In config.py
+     OPENAI_API_KEY = 'your_openai_api_key'
+     ```
+
+3. **Deploy Cloud Infrastructure**:
+   - Deploy Docker containers on the chosen cloud platform for hosting the LLM feature extractor.
+   - Set up periodic syncs between the cloud and local devices using the message broker (e.g., RabbitMQ).
+
+4. **Run the Application Locally**:
+   ```bash
+   python main.py
+   ```
+   - Ensure the wearable sensors are properly connected to the local processing device.
+   - Follow on-screen prompts to initiate real-time posture analysis and feedback.
+
+---
+
+### Usage
+
+After installation, users can wear the *Alpha Skin* sensor-embedded garment and start the application. The local device processes sensor data, evaluates postural correctness, and provides corrective feedback. The cloud model periodically updates, improving the model’s general accuracy and personalization.
+
+---
+
+### Project Repository
+
+The full project repository, including source code, documentation, and resources, can be accessed [here](https://github.com/username/alpha-skin).
+
+---
+
+### Demo Video
+
+A brief demo video showcasing *Alpha Skin*'s concept, technology stack, and healthcare impact can be accessed [here](https://link_to_demo_video.com).
+
+--- 
