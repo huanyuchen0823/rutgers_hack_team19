@@ -13,6 +13,7 @@ Alpha Skin is an innovative solution designed to support spinal health by provid
 - [Usage](#usage)
 - [Project Repository](#project-repository)
 - [Demo Video](#demo-video)
+- [Working Prototype](#working-prototype)
 
 ---
 
@@ -73,12 +74,31 @@ After installation, users can wear the *Alpha Skin* sensor-embedded garment and 
 
 ### Project Repository
 
-The full project repository, including source code, documentation, and resources, can be accessed [here](https://github.com/username/alpha-skin).
+The full project repository, including source code, documentation, and resources, can be accessed [here](https://github.com/huanyuchen0823/rutgers_hack_team19).
 
 ---
 
 ### Demo Video
 
-A brief demo video showcasing *Alpha Skin*'s concept, technology stack, and healthcare impact can be accessed [here](https://link_to_demo_video.com).
+A brief demo video showcasing *Alpha Skin*'s concept, technology stack, and healthcare impact can be accessed [here](https://github.com/huanyuchen0823/rutgers_hack_team19/blob/main/pre.mp4).
+
+--- 
+
+
+### Documentation
+
+A brief technical documentation which shows *Alpha Skin*'s concept, technology stack, and healthcare impact can be accessed [here](https://github.com/huanyuchen0823/rutgers_hack_team19/blob/main/Final%20Project_Team19%20Rutgers%20Health%20Hack%202024.pdf).
+
+
+--- 
+
+### Documentation
+
+Alpha Skin includes a functional prototype that showcases our cloud and Edge AI integration, highlighting how healthcare data and motion tracking can be used to provide real-time corrective feedback. This prototype consists of:
+
+- Codebase: This repository includes the core code that powers Alpha Skin’s data processing and real-time feedback loop.
+- Demo App: A demo version of the Alpha Skin app can be accessed [here](https://app.uizard.io/p/ed93eb2c/preview), showing how the user interface and interaction flow work to support spinal health.
+
+Together, these components demonstrate how wearable technology, cloud processing, and user-centered correction converge into a single solution.
 
 --- 
